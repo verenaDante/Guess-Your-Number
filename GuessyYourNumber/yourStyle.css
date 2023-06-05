@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+body{
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #c599ff, #6c6dc0, #4c00ff);
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+table th, table td {
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#playAgainBtn {
+    display: none;
+}
+
+.invalid-input {
+    border: 2px solid red;
+}
+
+button{
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;;
+    background: transparent;
+    box-shadow: 8px 8px 15px #6c6dc0;
+    border: none;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin: 8px;
+}
+
+button:hover{
+    background-color: #6c6dc0;
+}
+
+#iniciar{
+    width: 150px;
+    padding: 12px;
+}
+
+input{
+    border: 1px solid rgb(49, 3, 92);
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+

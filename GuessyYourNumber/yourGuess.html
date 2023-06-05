@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yourStyle.css">
+    <title>Adivinhe o Número</title>
+
+</head>
+<body>
+<div>
+    <h1>Adivinhe o Número</h1>
+    <p>Pense em um número de quatro caracteres, onde cada caractere é um dígito entre 1 e 9!</p>
+
+
+    <button id="iniciar" onclick="initializeGame()">Iniciar Novo Jogo</button>
+    <br>
+    <br>
+
+    <label for="guessInput">Digite o seu palpite:</label>
+    <input type="number" id="guessInput" placeholder="Digite um número">
+    <button onclick="guessNumber()">Palpite</button>
+
+<div>
+    <table id="guessTable">
+        <tr>
+            <th>Palpite</th>
+            <th>Posições Corretas</th>
+            <th>Números Corretos</th>
+        </tr>
+    </table>
+
+    <p id="remainingAttempts"></p>
+</div>
+
+    <button onclick="playAgain()" id="playAgainBtn">Jogar Novamente</button>
+
+    <script src="your.js"></script>
+</body>
+</html>
